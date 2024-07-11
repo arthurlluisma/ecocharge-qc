@@ -12,9 +12,9 @@
 
 .imageWrapper {
     position: relative;
-    width: 200px;
-    height: 200px;
-    border-radius: 99px;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 30px;
     overflow: hidden;
     margin-bottom: 1rem;
 }

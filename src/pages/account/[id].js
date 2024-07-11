@@ -11,7 +11,7 @@ export default function Account({ accountData }) {
   return (
     <>
       <Head>
-        <title>CoMission</title>
+        <title>EcoCharge QC</title>
       </Head>
       <div className={styles.background}>
         <div className={styles.main}>
@@ -20,24 +20,17 @@ export default function Account({ accountData }) {
             <div className={styles.imageWrapper}>
               <Image
                 className={styles.image}
-                src={accountData.pfp}
+                src={accountData.img}
                 fill
                 alt=""
               />
             </div>
             <h1>{accountData.id}</h1>
-            <h4>{accountData.name}</h4>
           </div>
           <div className={styles.infoWrapper}>
             <div className={styles.info}>
-              <h2>Basic Info</h2>
-              <p>Age: {accountData.age}</p>
+              <h2>Info:</h2>
               <p>{accountData.description}</p>
-            </div>
-            <div className={styles.info}>
-              <h2>Commission Me!</h2>
-              <p>Rates: {accountData.rates}</p>
-              <p>{accountData.contact}</p>
             </div>
           </div>
         </div>
