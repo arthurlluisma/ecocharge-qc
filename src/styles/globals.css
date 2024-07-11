@@ -1,11 +1,11 @@
 :root {
-    --main-color: #F94A4A;
-    --main-color-dim: #c62a2a;
-    --main-bg-color: #FFFFFF;
+  --main-color: #00cc66;
+  --main-color-dim: #009933;
+  --main-bg-color: #ffffff;
 }
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
