@@ -7,6 +7,8 @@ import { useState } from "react";
 const nunitoSans = Nunito_Sans({
   weight: "700",
   subsets: ["latin"],
+  display: "swap",
+  adjustFontFallback: false
 });
 
 export default function Card({ post }) {

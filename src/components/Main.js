@@ -5,7 +5,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the 
 import { faSearch } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
 import { useState } from "react";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  adjustFontFallback: false,
+});
 
 export default function Main() {
   const [searchValue, setSearchValue] = useState("");
