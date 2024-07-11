@@ -1,0 +1,62 @@
+.exit {
+    cursor: pointer;
+    position: absolute;
+    inset: 2rem auto auto 2rem;
+}
+
+.image {
+    object-fit: contain;
+}
+
+.imageWrapper {
+    position: relative;
+    height: 80%;
+    width: min(60%, 40rem);
+    pointer-events: none;
+    align-self: end;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 5rem;
+    padding-inline: 0px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    background-color: #f94a4a;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.link:hover {
+    background-color: #c62a2a;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+    width: 50rem;
+    height: 30rem;
+}
+
+.toggle {
+    background-color: antiquewhite;
+    border-radius: 1rem;
+    border: 1px solid black;
+    position: fixed;
+    inset: 50% auto auto 50%;
+    transform: translate(-50%, -50%) scale(0%, 0%);
+    transition: transform 0.5s;
+    z-index: 999999;
+}
+
+.toggle:has(.main[data-toggle="true"]) {
+    transform: translate(-50%, -50%) scale(100%, 100%);
+}

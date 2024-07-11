@@ -1,0 +1,10 @@
+.img {
+    object-fit: contain;
+}
+
+.link {
+    position: absolute;
+    inset: 2em auto auto 2rem;
+    width: 12rem;
+    aspect-ratio: 3;
+}

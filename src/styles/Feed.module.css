@@ -1,0 +1,10 @@
+.feed {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 17rem));
+    justify-content: center;
+    row-gap: 2rem;
+}
+
+.main {
+    padding: 2rem;
+}

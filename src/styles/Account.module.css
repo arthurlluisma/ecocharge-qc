@@ -1,0 +1,43 @@
+.background {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-image: url("https://images.unsplash.com/photo-1604871038809-0462d7c3a3a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-size: cover;
+}
+
+.image {
+    object-fit: cover;
+}
+
+.imageWrapper {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 99px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.info {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.info h2 {
+    padding-bottom: 10px;
+}
+
+.infoWrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 150px;
+    margin-inline: 100px;
+}

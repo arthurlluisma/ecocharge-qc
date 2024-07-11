@@ -1,0 +1,79 @@
+.mainNav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0);
+    gap: 50%;
+    color: #ffffff;
+}
+
+.navLeft,
+.navRight {
+    width: 100%;
+    height: 100%;
+}
+
+.navLeft {
+    width: fit-content;
+    position: relative;
+    aspect-ratio: calc(685 / 212);
+    width: 70rem;
+    margin: 1rem auto auto 1rem;
+}
+
+.navRight {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+/* i will uhhh fix this later */
+.logo {
+    height: 100%;
+    align-self: flex-start;
+}
+
+.joinButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: 90%;
+    border-radius: 10px;
+    background: var(--main-color);
+    padding: 10px 30px;
+}
+
+.joinButton:hover {
+    cursor: pointer;
+    background-color: var(--main-color-dim);
+    transition: 0.2s;
+}
+
+.join {
+    width: fit-content;
+    height: fit-content;
+}
+
+.exploreButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exploreAngle {
+    margin-left: 10px;
+}
+
+.explore {
+    width: fit-content;
+    height: fit-content;
+}
